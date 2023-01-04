@@ -80,6 +80,15 @@ li{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+	transition: 0.3s;
+}
+
+#profile-pic:hover{
+    width: 150px;
+	height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+	transition: 0.3s;
 }
 
 #email{
@@ -98,6 +107,7 @@ li{
     color: var(--secondaryTextColor);
     font-size: 0.9em;
     transition: 0.3s;
+	transition: 0.3s;
 }
 
 #socials--list a:hover{
@@ -119,7 +129,7 @@ li{
 
 .card--techstack{
     border: 1px solid var(--mainBorderColor);
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 0.5em 1em;
     align-items: center;
 }
