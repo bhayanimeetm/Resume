@@ -24,7 +24,7 @@
 
 *{
     font-family: 'Readex Pro';
-    line-height: 1.5em;
+    line-height: 1.3em;
     box-sizing: border-box;
     color: var(--mainTextColor);
     
@@ -46,7 +46,7 @@ a{
 }
 
 li{
-    line-height: 1.9em;
+    line-height: 2em;
 }
 
 #container--main{
@@ -130,7 +130,7 @@ li{
 .card--techstack{
     border: 1px solid var(--mainBorderColor);
     border-radius: 7px;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.3em;
     align-items: center;
 }
 
