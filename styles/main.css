@@ -72,13 +72,16 @@ li{
     margin-top: 1em; /* Space between text and image */
     object-fit: cover;
     border-radius: 1rem;
-    transition: 0.5s;
-    filter: brightness(1); /* Default brightness */
+    transition: 0.3s;
+    filter: brightness(0.8); /* Default brightness */
+    
 }
 
 #pic:hover {
-    transition: 0.5s;
-    filter: brightness(0.75); /* 25% darker on hover */
+    filter: brightness(1); /* 10% darker on hover */
+    transform: scale(1.01); /* Slightly grow on hover */
+    box-shadow: 0 8px 16px hsla(0, 0%, 74%, 0.5); /* Larger shadow on hover */
+    border-radius: 1rem;
 }
 
 #bio, a{
