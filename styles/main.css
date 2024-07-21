@@ -24,7 +24,7 @@
 
 *{
     font-family: 'Readex Pro';
-    line-height: 1.5em;
+    line-height: 1.5    em;
     box-sizing: border-box;
     color: var(--mainTextColor);
     
@@ -88,6 +88,20 @@ li{
 	height: 200px;
     object-fit: cover;
     border-radius: 20%;
+	transition: 0.3s;
+}
+
+#pic{
+    align-items: center;
+    object-fit: cover;
+    border-radius: 1rem;
+	transition: 0.3s;
+}
+
+#pic:hover{
+    align-items: center;
+    object-fit: cover;
+    border-radius: 2rem;
 	transition: 0.3s;
 }
 
