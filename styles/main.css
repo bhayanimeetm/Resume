@@ -89,24 +89,25 @@ li{
 }
 
 #user-name{
-    font-size: 48px;
+    font-size: 36px;
     line-height: 0.5em;
 }
 
 #profile-pic{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #profile-pic:hover{
-    width: 200px;
-    height: 200px;
+    width: 152px;
+    height: 152px;
     object-fit: cover;
-    border-radius: 20%;
-    transition: 0.3s;
+    border-radius: 50%;
+    transition: 0.5s;
+    
 }
 
 #email{
@@ -124,13 +125,14 @@ li{
     font-weight: 300;
     color: var(--secondaryTextColor);
     font-size: 0.9em;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #socials--list a:hover{
     font-weight: 100;
     color: var(--mainLinkColor);
-    font-size: 0.9em;
+    font-size: 0.95em;
+    transition: 0.5s;
 }
 
 #qualifications--list{
@@ -176,31 +178,4 @@ li{
 .line-break{
     background-color: var(--mainBorderColor);
     height: 1px;
-}
-
-@media(max-width:600px){
-    .section--page{
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-
-    #wrapper--hero{
-        display: flex;
-        align-items: center;
-        gap: 1em;
-    }
-
-    #profile-pic{
-        width: 200px;
-        height: 200px;
-    }
-
-    #wrapper--hero{
-        flex-direction: column;
-    }
-
-    .card--work-history{
-        border-left: none;
-        padding-left: 0;
-    }
 }
